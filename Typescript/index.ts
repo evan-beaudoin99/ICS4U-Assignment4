@@ -1,3 +1,11 @@
+/**
+ * This is the hourglass program 
+ *
+ * By:    Evan Beaudoin
+ * Version: 1.0
+ * Since:   2024-05-22
+ */
+
 function printHourglass(size: number) {
     // Base case
     if (size === 1) {
