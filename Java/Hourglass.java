@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class Hourglass {
+final class Hourglass {
 
     /**
      * Prints an hourglass pattern of asterisks with the given size.
