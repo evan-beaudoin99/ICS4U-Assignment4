@@ -15,7 +15,7 @@ final class Hourglass {
      * 
      * @param size The number of asterisks in the widest part of the hourglass.
      */
-    public static void printHourglass(int size) {
+    public static printHourglass(int size) {
         // Base case
         if (size == 1) {
             System.out.println("*");
@@ -24,9 +24,7 @@ final class Hourglass {
         }
 
         System.out.println("*".repeat(size));
-
         printHourglass(size - 1);
-
         System.out.println("*".repeat(size));
     }
 
@@ -45,7 +43,6 @@ final class Hourglass {
         } catch (NumberFormatException e) {
             System.out.println("Error: Please enter a valid integer.");
             scanner.close();
-            return;
         }
 
         printHourglass(userInput);

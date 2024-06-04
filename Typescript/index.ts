@@ -15,9 +15,7 @@ function printHourglass(size: number) {
     }
 
     console.log('*'.repeat(size))
-
     printHourglass(size - 1)
-
     console.log('*'.repeat(size))
 }
 
